@@ -1,0 +1,89 @@
+header, body, main, section, h1, h2, figure, img, figcaption, span, p, h4, button {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+header h1{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 900;
+    font-size: 68px;
+    margin: 47px 0 0 56px;
+}
+
+header h2 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 10px 0 0 56px;
+}
+
+main {
+    max-width: 1114px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 154px auto;
+}
+
+section {
+    width: 250px;
+    height: 472px;
+    margin: 16px 14px;
+}
+
+section figure {
+    margin: 16px;
+    width: 227px;
+    height: 224px;
+    display: flex;
+    align-items: center;
+}
+
+section figure img {
+    max-width: 227px;
+    max-height: 224px;
+}
+
+section figure figcaption {
+    display: none;
+}
+
+#estrelas {
+    width: 11px;
+}
+
+section p {
+    width: 227px;
+    height: 80px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #19191D;
+    letter-spacing: 0.0275em;
+    margin: 14px 19px 17px 0;
+}
+
+section h4 {
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.445);
+    margin: 14px 0 5px  0;
+}
+
+#preco {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+section button {
+    background-color: #fff;
+    color: #2264D1;
+    border: 1px solid #9DC2FF;
+    border-radius: 4px;
+    display: block;
+    padding: 10px;
+    margin: 9px 0 14px 0;
+}
